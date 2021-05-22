@@ -1,1 +1,44 @@
-// TODO
+.posts {
+  max-width: 720px;
+  margin: 5rem auto 0;
+
+  a {
+    display: block;
+
+    & + a {
+      margin-top: 2rem;
+      padding-top: 2rem;
+    }
+
+    strong {
+      display: block;
+      font-size: 1.75rem;
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+      line-height: 2rem;
+      transition: color 0.2s;
+    }
+
+    p {
+      color: var(--body);
+      line-height: 1.36125rem;
+      font-size: 1.125rem;
+    }
+
+    // &:hover strong {
+    //   color: var(--yellow-500);
+    // }
+  }
+}
+
+.continueReading {
+  padding-top: 4.125rem;
+  font-size: 1.125rem;
+  cursor: pointer;
+
+  button {
+    color: var(--highlight);
+    background:none;
+    border: none;
+  }
+}

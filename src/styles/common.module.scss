@@ -1,1 +1,30 @@
-// TODO
+.contentContainer {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2.375rem 0 4.05125rem;
+
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info {
+  margin-top: 1.5625rem;
+  display: flex;
+  align-items: center;
+  color: var(--info);
+}
+
+svg.calendar {
+  margin-right: 0.65625rem;
+}
+
+svg.user {
+  margin-right: 0.916875rem;
+}
+
+.date {
+  font-size: 1rem;
+  margin-right: 1.833125rem;
+}
+

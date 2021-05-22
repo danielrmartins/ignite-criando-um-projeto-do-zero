@@ -1,1 +1,38 @@
-// TODO
+.banner {
+  margin: 2.5rem 0 5rem 0;
+  width: 100%;
+  height: 15rem;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+svg.clock {
+  margin-left: 2.125rem;
+  margin-right: 0.9375rem;
+}
+
+.content {
+  margin-top: 4.125rem;
+
+  strong {
+    display: block;
+    font-size: 1.75rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+    transition: color 0.2s;
+
+
+  }
+}
+
+.postContent {
+  color: var(--body);
+  line-height: 1.36125rem;
+  font-size: 1.125rem;
+  text-align: justify;
+}
+
